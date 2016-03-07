@@ -1,0 +1,9 @@
+Problem: 
+Write code using find() and string slicing to extract the number at the end of the line below. Convert the extracted value to a floating point number and print it out.
+
+Code:
+text = "X-DSPAM-Confidence:    0.8475";
+atpos = text.find('.')
+
+host = text[atpos:atpos+5]
+print float(host)
