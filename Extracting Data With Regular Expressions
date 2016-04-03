@@ -1,0 +1,37 @@
+# Insert Regular Expression Library
+import re
+
+# Load in Actual Data file 
+x = open('Actual_Data.txt')
+Number_list = list()
+ 
+for line in x:
+    # Find and extract all instances where 1 or more digits
+	Numbers = re.findall('[0-9]+', line)
+    
+    # Add digits based on their order of magnitude
+    # Turn number strings into integers
+	if len(Numbers) == 1:
+		Number1 = int(Numbers[0])
+		Number_list.append(Number1)
+        
+    # Repeat for tens digits
+	if len(Numbers) == 2:
+		Number2 = int(Numbers[0])
+		Number3 = int(Numbers[1])
+		Number_list.append(Number2)
+		Number_list.append(Number3)
+        
+    # Repeat for hundreds digits
+	if len(Numbers) == 3:
+		Number4 = int(Numbers[0])
+		Number5 = int(Numbers[1])
+		Number6 = int(Numbers[2])
+		Number_list.append(Number4)
+		Number_list.append(Number5)
+		Number_list.append(Number6)
+ 
+Sum = 0
+for Number in Number_list:
+	Sum += Number
+print Sum
