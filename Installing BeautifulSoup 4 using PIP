@@ -1,0 +1,39 @@
+Download get-pip (seen below). Remember to save it as "get-pip.py"
+-----------------------------------------------------------------------------
+#!/usr/bin/env python
+import sys
+
+
+def main():
+    sys.exit(
+        "You're using an outdated location for the get-pip.py script, please "
+        "use the one available from https://bootstrap.pypa.io/get-pip.py"
+    )
+
+
+if __name__ == "__main__":
+    main()
+-----------------------------------------------------------------------------
+Now go to the download folder. Right click on get-pip.py then open with python.exe.
+
+You can add system variable by:
+
+1) Clicking on Properties of My Computer
+
+2) Then chose Advanced System Settings
+
+3) Click on Advanced Tab
+
+4) Click on Environment Variables
+
+5) From System Variables >>> select variable path.
+
+6) Click edit then add the following lines at the end of it
+
+ ;c:\Python27;c:\Python27\Scripts
+
+NB:- you have to do this once only.
+
+Finally, install beautifulsoup4 by opening cmd and typing:
+
+pip install beautifulsoup4
