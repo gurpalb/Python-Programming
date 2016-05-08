@@ -50,7 +50,6 @@ CREATE TABLE Track (
 );
 ''')
 
-
 fname = raw_input('Enter file name: ')
 if ( len(fname) < 1 ) : fname = 'Library.xml'
 
