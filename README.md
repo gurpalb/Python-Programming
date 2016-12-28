@@ -4,6 +4,10 @@ Basics files:
 
 	1. Split_Sort_Words 
 	2. String Slicing 
+	3. Open and Read File 	
+	4. Open and Search Through File 
+	5. Extracting Data With Regular Expressions 
+	6. Parse_Print_Second 
 	
 Data Structure files:
 
@@ -18,20 +22,14 @@ Using Python to Access Web Data files:
 	4. Extracting Data from XML 
 	5. Calling a JSON API
 	6. Scraping Numbers from HTML using BeautifulSoup.py
+	7. ResponseCycle.py 
 
 Using Databases with Python files:
 
 	1. Create_Email_Database.py
 	2. Musical_Track_Database.py 
-
-	Extracting Data With Regular Expressions 
-	Many-to-Many_Roster.py 	
-	Many-to-Many_Students_in_Courses-Roster.py
-	Multi-Label_Tracks.py 	
-	Open and Read File 	
-	Open and Search Through File 	
-	Parse_Print_Second 		
-	ResponseCycle.py 	
-
-Michigan_Specialization_Certificate.JPG 	
-	 	 
+	3. Many-to-Many_Roster.py 	
+	4. Many-to-Many_Students_in_Courses-Roster.py
+	5. Multi-Label_Tracks.py 	
+			
+Michigan_Specialization_Certificate.JPG
